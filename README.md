@@ -243,18 +243,12 @@ The best hyperparameters for XGBoost were found to be:
 After tuning, the **test accuracy** was:
 
 ```
-Test Accuracy: **0.78**
+Test Accuracy: 0.78
 ```
 
 ## Saving the Final Model
 
 The final trained model was saved using pickle for future use.
-
-**Code for Saving Model:**
-```python
-filename = 'CRM_v1.sav'
-pickle.dump(best_model, open(filename, 'wb'))
-```
 
 ## Conclusion
 
